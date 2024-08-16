@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>input</title>
+</head>
+<body>
+    <input type="checkbox" name="blc" id="black">
+    <label for="black">Black</label>
+    <input type="radio" name="hello" id="hi">
+    <label for="hi">Hi</label>
+    <button onclick="alert('Are you sure you want to continue?')"> 
+        <img src="https://cdn.pixabay.com/photo/2016/06/01/00/08/button-1428090_640.png" 
+            alt="Submit the form" height="64" width="64">
+     </button> 
+    <label for="bday">Enter Your Birth Month</label>
+    <input type="month" name="bday" id="bday" min="1930-01" value="2000-01">
+    <label for="date">Enter the Time</label>
+    <input type="time" name="date" id="date" value="14:00">
+    <label for="cvc">CVC</label>
+    <input type="number" name="cvc" id="cvc" min="100" max="999">
+</body>
+</html>
+<!-- name attribute is used by the js to check that the attribute is from the same input -->

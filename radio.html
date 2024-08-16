@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <fieldset id="location">
+        <legend>Location</legend>
+        <input type="radio" name="location" id="multan">
+        <label for="multan">Multan</label>
+        <input type="radio" name="location" id="khanewal">
+        <label for="khanewal">Khanewal</label>
+        <input type="radio" name="location" id="kabirwala">
+        <label for="kabirwala">Kabirwala</label>
+    </fieldset>
+    <fieldset id="table">
+        <legend>People</legend>
+        <input type="radio" name="table" id="two">
+        <label for="two">2-People</label>
+        <input type="radio" name="table" id="four">
+        <label for="four">4-People</label>
+        <input type="radio" name="table" id="six">
+        <label for="six">6-People</label>
+    </fieldset>
+    <label for="table">Number of Table</label>
+    <input type="range" name="table-res" id="table" min="1" max="5" oninput="this.nextElementSibling.value=this.value">
+    <output>4</output>
+    <label for="loc">Locaton: </label>
+    <select id="location">
+        <option value="multan">Multan</option>
+        <option value="kabirwala" selected>Kabirwala</option>
+        <option value="khanewal">Khanewal</option>
+    </select>
+    <input list="flowers" name="flowers"> 
+  <datalist id="flowers"> 
+    <option value="Rose"> 
+    <option value="Lily"> 
+    <option value="Tulip"> 
+    <option value="Daffodil"> 
+    <option value="Orchid"> 
+  </datalist> 
+</body>
+</html>

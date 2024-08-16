@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+</head>
+<body style="background-color: rgba(165, 218, 218, 0.308);">
+    <header>
+        <div style="display: flex; justify-content: center;">
+            <img src="https://littlelemon.store/wp-content/uploads/2024/01/little-lemon-store-logo-1.png" alt="logo" height="194">
+        </div>
+    </header>
+    <main style="display: flex; justify-content: center;">
+        <section>
+            <h1 style="text-align: center;">Sign Up</h1>
+            <form action="server.js" method="post">
+                <label for="fname">First Name</label><br>
+                <input type="text" id="fname" name="fname" required><br>
+                <label for="lname">Last Name</label><br>
+                <input type="text" id="lname" name="lname" required><br>
+                <label for="email">Email</label><br>
+                <input type="email" id="email" name="email" required><br>
+                <label for="pwd">Password</label><br>
+                <input type="password" id="pwd" name="pwd" required><br>
+                <label for="pwd2">Confirm Password</label><br>
+                <input type="password" id="pwd2" name="pwd2" required><br>
+                <br>
+                <div style="display: flex; justify-content: center;">
+                    <button type="submit">Sign Up</button>
+                </div>
+            </form>
+        </section>
+    </main>
+    <footer style="display: flex; justify-content: center;">
+        <p>&copy; 2024 Little Lemon Store. All rights reserved.</p>
+    </footer>
+</body>
+</html>
