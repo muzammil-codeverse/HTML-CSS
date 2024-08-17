@@ -1,0 +1,28 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    border: 2px solid rgb(0, 0, 0);
+}
+.contained{
+    background-color: yellow;
+    height: 200px;
+    width: 50px;
+    margin: 5px;
+}
+.child3{
+    height: 250px;
+    background-color: yellowgreen;
+}
+.child5{
+    background-color: blue;
+    height: 300px;
+}
+.child1{
+    background-color: red;
+    height: 150px;
+}
+.child6{
+    background-color: orange;
+    height: 250px;
+}
